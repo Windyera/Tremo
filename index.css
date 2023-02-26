@@ -1,0 +1,52 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	line-height: 1.5;
+	font-size: 14px;
+	font-weight: 400;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	text-decoration: none;
+	list-style: -moz-none;
+	list-style: none;
+	border-radius: 5px;
+}
+html {
+	height: 100%;
+}
+body, div, span, svg, canvas, img {
+	display: -webkit-flex;
+	display: flex;
+}
+a:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+tr {
+	height: 32px;
+}
+td {
+	padding: 0 8px;
+}
+table.zebra {
+	border-spacing: 0;
+}
+table.zebra > tbody > tr > td:first-of-type {
+	width: 45%;
+	border-radius: 5px 0 0 5px;
+}
+table.zebra > tbody > tr > td:last-of-type {
+	border-radius: 0 5px 5px 0;
+}
+table.zebra > tbody > tr > td:nth-of-type(n+2):not(:last-of-type) {
+	border-radius: 0;
+}
+svg {
+	overflow: initial;
+}
+audio, video:focus {
+	outline: medium;
+}
+
+/* with love. */
