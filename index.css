@@ -23,11 +23,8 @@ a:hover {
 	text-decoration: underline;
 	cursor: pointer;
 }
-tr {
-	height: 32px;
-}
 td {
-	padding: 0 8px;
+	padding: 8px 8px;
 }
 table.zebra {
 	border-spacing: 0;
